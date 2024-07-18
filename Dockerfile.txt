@@ -1,0 +1,5 @@
+FROM nginx
+
+COPY webpage.html /usr/share/nginx/html/webpage.html
+
+EXPOSE 8081
